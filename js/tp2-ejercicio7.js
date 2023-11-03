@@ -12,7 +12,7 @@ el usuario (no mayor de 50)  de la siguiente forma : (suponiendo que indica 30).
 */
 
 
-let filas = prompt('Ingrese un número entre 1 y 50. Será la cantidad de filas en una pirámide inversa.')
+const filas = prompt('Ingrese un número entre 1 y 50. Será la cantidad de filas en una pirámide inversa.')
 
 if(isNaN(filas)){
   alert('El valor ingresado no es un número.')

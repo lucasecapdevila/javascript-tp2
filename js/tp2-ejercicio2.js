@@ -20,7 +20,7 @@ Input: 50               Output: Número erróneo
 Input: hola10           Output: Introduce un número válido
 */
 
-let nota = prompt('Ingrese la nota')
+const nota = parseInt(prompt('Ingrese la nota'))
 
 if (nota >= 0 && nota <= 2) {
   alert('Muy deficiente')

@@ -11,7 +11,7 @@ el usuario (no mayor de 50)
 ……
 */
 
-let filas = parseInt(prompt('Ingrese un número entre 1 y 50'))
+const filas = parseInt(prompt('Ingrese un número entre 1 y 50'))
 
 if(!isNaN(filas) && filas > 0 && filas <= 50){
   for(let iFilas = 0; iFilas <= filas; iFilas++){
@@ -19,8 +19,7 @@ if(!isNaN(filas) && filas > 0 && filas <= 50){
       document.write(contador)
     }
     document.write('<br>')
-  }
-  
+  }  
 } else{
   alert('Ingresó un valor incorrecto.')
 }
